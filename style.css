@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    border-bottom: 2px solid black;
+}
+.navbar_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.navbar_content{
+    display:flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+.navbar_button{
+    margin-right: 4em;
+}
+.navbar_logo{
+    margin-left: 2em;
+}
+.navbar_button button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.hero{
+    position: relative;
+}
+.container_image{
+    position: absolute;
+    left: 40%;
+    top: -92px;
+}
+.container_image img{
+    min-height: 55em;
+    z-index: 1;
+}
+.hero_text{
+    font-size: 6rem;
+    z-index: 9999;
+    margin-left: 10%;
+}
+.hero_text button{
+    font-size: 1.4rem;
+    background-color: rgb(255, 102, 0);
+    padding: 20px 40px;
+    border-radius: 20px ;
+    color: white;
+    border: 0px;
+}
+.orange_text{
+    color: rgb(255, 102, 0);
+}
+
+
+.shift_content_right{
+    padding-left: 32%;
+}
+
+
+
+nav form{
+    margin-right: 10%;
+}
+.padding_li{
+    padding:0px 20px ;
+}
+
+
+
+.hero_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+.hero_subtext{
+    margin-right: 10%;
+    margin-bottom: 350px;
+    z-index: 9999;
+    font-size: 1.3rem;
+    text-align: right;
+    color: gray;
+}
+
+.hero_text h3 span{
+    font-size: 3rem;
+}
+.hero_text .part1{
+    color: rgb(255, 102, 0);
+}
+.hero_text h3{
+    padding-top: 35px;
+}
+
+
+.about_us{
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 20px;
+    margin: 100px 0px;
+}
+.about_images{
+    padding-left: 70px;
+}
+.about_images img{
+    width: 70%;
+}
+.about_content{
+    display: flex;
+    flex-direction: column;
+}
+.about_content button{
+    font-size: 1.4rem;
+    background-color: rgb(255, 102, 0);
+    padding: 20px 40px;
+    border-radius: 20px ;
+    color: white;
+    border: 0px;
+}
+.about1{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 40px;
+}
+.about2{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer div{
+    color: white !important;
+}
+.footer_txt{
+    font-size: 3rem;
+    text-align: center;
+    align-self: center;
+    padding-left: 10%;
+}
+.arrow{
+    color: white;
+    width: 50px;
+}
+.service_head{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.head1{
+    font-size: 5rem;
+    text-align: left;
+    font-weight: 400;
+}
+.head2{
+    font-size: 1.2rem
+
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+.s1{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+
+}
+.s1a{
+    background-color: rgb(249, 240, 240);
+    border-radius: 20px;
+    flex: 1;
+    min-height: 200px;
+    padding: 20px;
+}
+.s1b{
+    background-color: rgb(249, 240, 240);
+    border-radius: 20px;
+    flex: 1;
+    min-height: 200px;
+    padding: 20px;
+
+}
+.s1c{
+    background-color: rgb(249, 240, 240);
+    border-radius: 20px;
+    flex: 2;
+    min-height: 200px;
+    padding: 20px;
+
+}
+.s2{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+}
+.s2a{
+    background-color: rgb(249, 240, 240);
+    border-radius: 20px;
+    flex: 2;
+    min-height: 200px;
+    padding: 20px;
+
+}
+.s2b{
+    background-color: rgb(249, 240, 240);
+    border-radius: 20px;
+    flex: 1;
+    min-height: 200px;
+    padding: 20px;
+
+}
+.s2c{
+    background-color: rgb(249, 240, 240);
+    border-radius: 20px;
+    flex: 1;
+    min-height: 200px;
+    padding: 20px;
+
+}
+.navbar_button :hover{
+    border:2px solid rgb(255, 102, 0);
+    color: rgb(255, 102, 0);
+}
+@media (max-width:1010px) {
+    .shift_content_right{
+        padding-left: 0%;
+    }
+    .container_image{
+        display: none;
+    }
+    .hero_1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero_subtext{
+        margin-bottom: 0px;
+    }
+    .s1{
+        flex-direction: column;
+    }
+    .s2{
+        flex-direction: column;
+    }
+}
